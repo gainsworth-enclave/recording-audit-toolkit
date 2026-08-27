@@ -1,0 +1,13 @@
+# Real infrastructure config — never commit this
+config.sh
+
+# Runtime output artifacts
+*.csv
+filenames_*.txt
+audit_report.txt
+size_counts.txt
+ssh_sockets/
+
+# OS/editor noise
+.DS_Store
+*.swp
